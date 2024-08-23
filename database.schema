@@ -1,0 +1,81 @@
+CREATE TABLE pokemon (
+    pokedex_num     INTEGER,
+    name            STRING,
+    type            STRING,
+    ability         INTEGER,
+
+    ingredient_1    STRING,
+    ingredient_2    STRING,
+    ingredient_3    STRING,
+
+    PRIMARY KEY (pokedex_num, name),
+    FOREIGN KEY (ability) REFERENCES abilities (id)
+    FOREIGN KEY (type) REFERENCES berries (type)
+);
+CREATE TABLE helpers (
+    id              INTEGER PRIMARY KEY,
+    pokedex         INTEGER,
+    pokemon         STRING,
+    
+    shiny           BOOLEAN,
+    level           INTEGER,
+
+    ingredient_1    STRING,
+    ingredient_2    STRING,
+    ingredient_3    STRING,
+
+    subskill_1      INTEGER,
+    subskill_2      INTEGER,
+    subskill_3      INTEGER,
+    subskill_4      INTEGER,
+    subskill_5      INTEGER,
+
+    nature          INTEGER,
+
+    FOREIGN KEY (pokedex, pokemon) REFERENCES pokemon (pokedex_num, name),
+    FOREIGN KEY (subskill_1) REFERENCES subskills (id),
+    FOREIGN KEY (subskill_2) REFERENCES subskills (id),
+    FOREIGN KEY (subskill_3) REFERENCES subskills (id),
+    FOREIGN KEY (subskill_4) REFERENCES subskills (id),
+    FOREIGN KEY (subskill_5) REFERENCES subskills (id),
+    FOREIGN KEY (nature) REFERENCES natures (id)
+);
+CREATE TABLE abilities (
+    id              INTEGER PRIMARY KEY,
+    name            STRING,
+    max_level       INTEGER
+);
+CREATE TABLE subskills (
+    id              INTEGER PRIMARY KEY,
+    name            STRING
+);
+CREATE TABLE natures (
+    id              INTEGER PRIMARY KEY,
+    name            STRING
+);
+CREATE TABLE recipes (
+    dish_type       STRING,
+    name            STRING,
+    base_strength   INTEGER,
+
+    leek            INTEGER,
+    mushroom        INTEGER,
+    egg             INTEGER,
+    potato          INTEGER,
+    apple           INTEGER,
+    herb            INTEGER,
+    sausage         INTEGER,
+    milk            INTEGER,
+    honey           INTEGER,
+    oil             INTEGER,
+    ginger          INTEGER,
+    tomato          INTEGER,
+    cacao           INTEGER,
+    tail            INTEGER,
+    soybeans        INTEGER,
+    corn            INTEGER
+);
+CREATE TABLE berries (
+    berry           STRING,
+    type            STRING
+);

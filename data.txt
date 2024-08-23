@@ -1,0 +1,296 @@
+# Abilities Data
+# id // name // max_level
+abilities
+"Charge Strength S (Set Value)" 7
+"Charge Strength M (Set Value)" 7
+"Dream Shard Magnet S (Set Value)" 7
+"Energizing Cheer S" 6
+"Charge Strength S (Value Range)" 7
+"Dream Shard Magnet S (Value Range)" 7
+"Charge Energy S" 6
+"Energy for Everyone S" 6
+"Extra Helpful S" 6
+"Ingredient Magnet S" 6
+"Cooking Power-Up S" 6
+"Metronome" 1
+"Tasty Chance S" 6
+"Helper Boost" 6
+close
+
+# SubSkill Data
+# id // name
+subskills
+"Berry Finding S"
+"Dream Shard Bonus"
+"Energy Recovery Bonus"
+"Energy Recovery M"
+"Energy Recovery S"
+"Helping Bonus"
+"Helping Speed M"
+"Helping Speed S"
+"Ingredient Finder M"
+"Ingredient Finder S"
+"Inventory Up L"
+"Inventory Up M"
+"Inventory Up S"
+"Research EXP Bonus"
+"Skill Level Up M"
+"Skill Level Up S"
+"Skill Trigger M"
+"Skill Trigger S"
+"Sleep EXP Bonus"
+close
+
+# Natures Data
+# id // name
+natures
+"Lonely"
+"Adament"
+"Naughty"
+"Brave"
+"Bold"
+"Impish"
+"Lax"
+"Relaxed"
+"Modest"
+"Mild"
+"Rash"
+"Quiet"
+"Calm"
+"Gentle"
+"Careful"
+"Sassy"
+"Timid"
+"Hasty"
+"Jolly"
+"Naive"
+"Bashful"
+"Hardy"
+"Docile"
+"Quirky"
+"Serious"
+close
+
+# Pokemon Data
+# pokedex_num // name // type // ability
+pokemon
+1 "Bulbasaur" grass 10 honey potato tomato
+2 "Ivysaur" grass 10 honey potato tomato
+3 "Venusaur" grass 10 honey potato tomato
+4 "Charmander" fire 10 sausage ginger herb
+5 "Charmeleon" fire 10 sausage ginger herb
+6 "Charizard" fire 10 sausage ginger herb
+7 "Squirtle" water 10 milk cacao sausage
+8 "Wartortle" water 10 milk cacao sausage
+9 "Blastoise" water 10 milk cacao sausage
+10 "Caterpie" bug 10 honey tomato soybeans
+11 "Metapod" bug 10 honey tomato soybeans
+12 "Butterfree" bug 10 honey tomato soybeans
+19 "Rattata" normal 7 apple soybeans sausage
+20 "Raticate" normal 7 apple soybeans sausage
+23 "Ekans" poison 7 sausage egg herb
+24 "Arbok" poison 7 sausage egg herb
+25 "Pikachu" electric 1 apple egg ginger
+25 "Pikachu (Halloween)" electric 5 apple egg ginger
+25 "Pikachu (Holiday)" electric 3 apple egg ginger
+26 "Raichu" electric 1 apple egg ginger
+35 "Clefairy" fairy 12 apple honey soybeans
+36 "Clefable" fairy 12 apple honey soybeans
+39 "Jigglypuff" fairy 8 honey oil cacao
+40 "Wigglytuff" fairy 8 honey oil cacao
+50 "Diglett" ground 1 tomato leek soybeans
+51 "Dugtrio" ground 1 tomato leek soybeans
+52 "Meowth" normal 3 milk sausage sausage
+53 "Persian" normal 3 milk sausage sausage
+54 "Psyduck" water 5 cacao apple sausage
+55 "Golduck" water 5 cacao apple sausage
+56 "Mankey" fighting 5 sausage mushroom honey
+57 "Primeape" fighting 5 sausage mushroom honey
+58 "Growlithe" fire 9 herb sausage milk
+59 "Arcanine" fire 9 herb sausage milk
+69 "Bellsprout" grass 7 tomato potato leek
+70 "Weepinbell" grass 7 tomato potato leek
+71 "Victreebel" grass 7 tomato potato leek
+74 "Geodude" rock 5 soybeans mushroom potato
+75 "Graveler" rock 5 soybeans mushroom potato
+76 "Golem" rock 5 soybeans mushroom potato
+79 "Slowpoke" water 4 cacao tail tomato
+80 "Slowbro" water 4 cacao tail tomato
+81 "Magnemite" steel 11 oil herb herb
+82 "Magneton" steel 11 oil herb herb
+84 "Doduo" flying 7 soybeans cacao sausage
+85 "Dodrio" flying 7 soybeans cacao sausage
+92 "Gastly" ghost 5 herb mushroom oil
+93 "Haunter" ghost 5 herb mushroom oil
+94 "Gengar" ghost 5 herb mushroom oil
+95 "Onix" rock 10 tomato sausage potato
+104 "Cubone" ground 7 ginger cacao cacao
+105 "Marowak" ground 7 ginger cacao cacao
+115 "Kangaskhan" normal 10 ginger potato soybeans
+122 "Mr. Mime" psychic 1 tomato potato leek
+127 "Pinsir" bug 1 honey apple sausage
+132 "Ditto" normal 5 oil leek tail
+133 "Eevee" normal 10 milk cacao sausage
+134 "Vaporeon" water 10 milk cacao sausage
+135 "Jolteon" electric 9 milk cacao sausage
+136 "Flareon" fire 11 milk cacao sausage
+147 "Dratini" dragon 7 herb corn oil
+148 "Dragonair" dragon 7 herb corn oil
+149 "Dragonite" dragon 7 herb corn oil
+152 "Chikorita" grass 5 cacao honey leek
+153 "Bayleef" grass 5 cacao honey leek
+154 "Meganium" grass 5 cacao honey leek
+155 "Cyndaquil" fire 5 ginger herb oil
+156 "Quilava" fire 5 ginger herb oil
+157 "Typhlosion" fire 5 ginger herb oil
+158 "Totodile" water 5 sausage oil oil
+159 "Croconaw" water 5 sausage oil oil
+160 "Feraligatr" water 5 sausage oil oil
+172 "Pichu" electric 1 apple egg ginger
+173 "Cleffa" fairy 12 apple honey soybeans
+174 "Igglybuff" fairy 8 honey oil cacao
+175 "Togepi" fairy 12 egg ginger cacao
+176 "Togetic" fairy 12 egg ginger cacao
+179 "Mareep" electric 2 herb egg egg
+180 "Flaafy" electric 2 herb egg egg
+181 "Ampharos" electric 2 herb egg egg
+185 "Sudowoodo" rock 2 tomato mushroom soybeans
+196 "Espeon" psychic 2 milk cacao sausage
+197 "Umbreon" dark 7 milk cacao sausage
+199 "Slowking" water 4 cacao tail tomato
+202 "Wobbuffet" psychic 4 apple oil mushroom
+208 "Steelix" steel 10 apple sausage potato
+214 "Heracross" bug 10 honey mushroom sausage
+225 "Delibird" flying 10 egg apple cacao
+228 "Houndour" dark 1 herb ginger leek
+229 "Houndoom" dark 1 herb ginger leek
+243 "Raikou" electric 14 sausage herb leek
+246 "Larvitar" rock 7 ginger soybeans sausage
+247 "Pupitar" rock 7 ginger soybeans sausage
+248 "Tyranitar" dark 7 ginger soybeans sausage
+280 "Ralts" psychic 8 apple corn leek
+281 "Kirlia" psychic 8 apple corn leek
+282 "Gardevoir" psychic 8 apple corn leek
+287 "Slakoth" normal 10 tomato honey apple
+288 "Vigoroth" normal 10 tomato honey apple
+289 "Slaking" normal 10 tomato honey apple
+302 "Sableye" dark 6 oil mushroom cacao
+316 "Gulpin" poison 6 soybeans mushroom honey
+317 "Swalot" poison 6 soybeans mushroom honey
+333 "Swablu" flying 7 egg soybeans apple
+334 "Altaria" dragon 7 egg soybeans apple
+353 "Shuppet" ghost 5 oil ginger mushroom
+354 "Banette" ghost 5 oil ginger mushroom
+359 "Absol" dark 1 cacao apple mushroom
+360 "Wynaut" psychic 4 apple oil mushroom
+363 "Spheal" ice 10 oil ginger sausage
+364 "Sealeo" ice 10 oil ginger sausage
+365 "Walrein" ice 10 oil ginger sausage
+438 "Bonsly" rock 2 tomato mushroom soybeans
+439 "Mime Jr." psychic 1 tomato potato leek
+447 "Riolu" fighting 3 oil potato egg
+448 "Lucario" fighting 3 oil potato egg
+453 "Croagunk" poison 1 oil sausage sausage
+454 "Toxicroak" poison 1 oil sausage sausage
+459 "Snover" ice 5 tomato egg mushroom
+460 "Abomasnow" ice 5 tomato egg mushroom
+462 "Magnezone" steel 11 oil tomato tomato
+468 "Togekiss" fairy 12 egg ginger cacao
+470 "Leafeon" grass 4 milk cacao sausage
+471 "Glaceon" ice 11 milk cacao sausage
+477 "Gallade" fighting 9 apple corn leek
+700 "Sylveon" fairy 8 milk cacao sausage
+702 "Dedenne" electric 13 apple cacao corn
+759 "Stufful" fighting 5 corn sausage egg
+760 "Bewear" fighting 5 corn sausage egg
+764 "Comfey" fairy 4 corn ginger cacao
+close
+
+# Recipe Data
+# dish_type // name // base_strength // leek // mushroom // egg // potato // apple // herb // sausage // milk //
+# honey // oil // ginger // tomato // cacao // tail // soybeans // corn
+recipes
+curry "Mixed Curry" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+curry "Fancy Apple Curry" 668 0 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0
+curry "Grilled Tail Curry" 7483 0 0 0 0 0 25 0 0 0 0 0 0 0 8 0 0
+curry "Solar Power Tomato Curry" 1973 0 0 0 0 0 5 0 0 0 0 0 10 0 0 0 0
+curry "Dream Eater Butter Curry" 9010 0 0 0 18 0 0 0 10 0 0 0 15 12 0 0 0
+curry "Spicy Leek Curry" 5900 14 0 0 0 0 8 0 0 0 0 10 0 0 0 0 0
+curry "Spre Mushroom Curry" 4041 0 14 0 9 0 0 0 0 0 0 0 0 0 0 0 0
+curry "Egg Bomb Curry" 4523 0 0 8 4 11 0 0 0 12 0 0 0 0 0 0 0
+curry "Heaty Cheeseburger Curry" 1785 0 0 0 0 0 0 8 8 0 0 0 0 0 0 0 0
+curry "Soft Potato Chowder" 3089 0 4 0 8 0 0 0 10 0 0 0 0 0 0 0 0
+curry "Simple Chowder" 727 0 0 0 0 0 0 0 7 0 0 0 0 0 0 0 0
+curry "Beanburger Curry" 764 0 0 0 0 0 0 7 0 0 0 0 0 0 0 0 0
+curry "Mild Honey Curry" 749 0 0 0 0 0 0 0 0 7 0 0 0 0 0 0 0
+curry "Ninja Curry" 6159 9 5 0 0 0 0 9 0 0 0 0 0 0 0 15 0
+curry "Drought-Katsu Curry" 1815 0 0 0 0 0 0 10 0 0 5 0 0 0 0 0 0
+curry "Melta Omelette Curry" 2009 0 0 10 0 0 0 0 0 0 0 0 6 0 0 0 0
+curry "Bulk Up Bean Curry" 3274 0 0 4 0 0 4 6 0 0 0 0 0 0 0 12 0
+curry "Limber Corn Stew" 4670 0 0 0 8 0 0 0 8 0 0 0 0 0 0 0 14
+curry "Inferno Corn Keema Curry" 13690 0 0 0 0 0 27 24 0 0 0 12 0 0 0 0 14
+salad "Mixed Salad" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+salad "Slowpoke Tail Pepper Salad" 8169 0 0 0 0 10 0 0 0 15 0 0 0 0 10 0 0
+salad "Spore Mushrrom Salad" 5859 0 17 0 0 0 0 0 0 0 8 0 8 0 0 0 0
+salad "Snow Cloak Caesar Salad" 1774 0 0 0 0 0 0 6 10 0 0 0 0 0 0 0 0
+salad "Gluttony Potato Salad" 5040 0 0 9 14 6 0 7 0 0 0 0 0 0 0 0 0
+salad "Water Veil Tofu Salad" 1843 0 0 0 0 0 0 0 0 0 0 0 6 0 0 10 0
+salad "Superpower Extreme Salad" 2958 0 0 5 3 0 0 9 0 0 0 6 0 0 0 0 0
+salad "Bean Ham Salad" 873 0 0 0 0 0 0 8 0 0 0 0 0 0 0 0 0
+salad "Snoozy Tomato Salad" 933 0 0 0 0 0 0 0 0 0 8 0 0 0 0 0 0
+salad "Moomoo Caprese Salad" 2856 0 0 0 0 0 0 0 12 0 5 0 6 0 0 0 0
+salad "Contrary Chocolate Meat Salad" 3558 0 0 0 0 0 0 9 0 0 0 0 0 14 0 0 0
+salad "Overheat Ginger Salad" 5225 0 0 0 0 0 17 0 0 0 0 10 8 0 0 0 0
+salad "Fancy Apple Salad" 763 0 0 0 0 8 0 0 0 0 0 0 0 0 0 0 0
+salad "Immunity Leek Salad" 2658 10 0 0 0 0 0 0 0 0 0 5 0 0 0 0 0
+salad "Dazzling Apple Cheese Salad" 2578 0 0 0 0 15 0 0 5 0 3 0 0 0 0 0 0
+salad "Ninja Salad" 100095 15 12 0 0 0 0 0 0 0 0 11 0 0 0 15 0
+salad "Heat Wave Tofu Salad" 1679 0 0 0 0 0 6 0 0 0 0 0 0 0 0 10 0
+salad "Greengrass Salad" 11393 0 0 0 9 0 0 0 0 0 22 0 14 0 0 0 17
+salad "Calm Mind Fruit Salad" 7675 0 0 0 0 21 0 0 0 16 0 0 0 0 0 0 12
+salad "Fury Attack Corn Salad" 2785 0 0 0 0 0 0 0 0 0 8 0 0 0 0 0 9
+dessert "Mixed Juice" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+dessert "Fluffy Sweet Potatoes" 1783 0 0 0 9 0 0 0 5 0 0 0 0 0 0 0 0
+dessert "Steadfast Ginger Cookies" 4921 0 0 4 0 0 0 0 0 14 0 12 0 5 0 0 0
+dessert "Fancy Apple Juice" 763 0 0 0 0 8 0 0 0 0 0 0 0 0 0 0 0
+dessert "Craft Soda Pop" 964 0 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0
+dessert "Ember Ginger Tea" 1788 0 0 0 0 7 0 0 0 0 0 9 0 0 0 0 0
+dessert "Jigglypuff's Fruity Flan" 7594 0 0 15 0 10 0 0 10 20 0 0 0 0 0 0 0
+dessert "Lovely Kiss Smoothie" 4734 0 0 0 0 11 0 0 9 7 0 0 0 8 0 0 0
+dessert "Lucky Chant Apple Pie" 1634 0 0 0 0 12 0 0 4 0 0 0 0 0 0 0 0
+dessert "Neroli's Rrestorative Tea" 5065 0 9 0 0 15 0 0 0 0 0 11 0 0 0 0 0
+dessert "Sweet Scent Chocolate Cake" 3280 0 0 0 0 0 0 0 7 9 0 0 0 8 0 0 0
+dessert "Warm Moomoo Milk" 727 0 0 0 0 0 0 0 7 0 0 0 0 0 0 0 0
+dessert "Cloud Nine Soy Cake" 1798 0 0 8 0 0 0 0 0 0 0 0 0 0 0 7 0
+dessert "Hustle Protein Smoothie" 3168 0 0 0 0 0 0 0 0 0 0 0 0 8 0 15 0
+dessert "Stalwart Vegetable Juice" 1798 0 0 0 0 7 0 0 0 0 0 0 9 0 0 0 0
+dessert "Big Malasada" 2927 0 0 0 0 0 0 0 7 6 10 0 0 0 0 0 0
+dessert "Huge Power Soy Donuts" 3212 0 0 0 0 0 0 0 0 0 9 0 0 7 0 6 0
+dessert "Explosive Popcorn" 6048 0 0 0 0 0 0 0 7 0 14 0 0 0 0 0 15
+dessert "Teatime Corn Scones" 10925 0 0 0 0 20 0 0 9 0 0 20 0 0 0 0 18
+dessert "Petal Dance Chocolate Tart" 3314 0 0 0 0 11 0 0 0 0 0 0 0 11 0 0 0
+dessert "Flower Gift Macarons" 13834 0 0 25 0 0 0 0 10 17 0 0 0 25 0 0 0
+close
+
+# Berries Data
+# name // type
+berries
+belue steel
+bluk ghost
+cheri fighting
+chesto poison
+durin grass
+figy ground
+grepa electric
+leppa fire
+lum bug
+mago psychic
+oran water
+pamtre flying
+pecha fairy
+persim normal
+rawst ice
+sitrus rock
+wiki dark
+yache dragon
+close
